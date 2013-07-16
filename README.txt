@@ -25,8 +25,11 @@ PEBIL  is a binary instrumentation toolkit that operates on ELF binaries on
 Linux for x86/x86_64 processors. PEBIL has a C++ API that provides the means to
 inject code and data into a binary file. It also provides several
 pre-implemented tools for basic block counting and cache simulation for a set of
-memory hierarchies.  2.2.1.1	Installation for Application Tracing Host
-Systems: Any X86/Linux The source code for the PEBIL library and instrumentation
+memory hierarchies.  
+
+2.2.1.1	Installation for Application Tracing Host Systems:
+
+Any X86/Linux The source code for the PEBIL library and instrumentation
 tools is available at through PMaC Laboratories by e-mailing help@pmaclabs.com.
 The directory structure of distribution is as follows:
 
