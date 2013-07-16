@@ -75,15 +75,16 @@ Manually following the make steps is particularly useful when the default
 configuration (configuration that comes with the source code) is not used for
 building the instcode directory. There are various ways of building the code
 under this directory and the available compilation macros are described in
-details in Section 2.2.1.2.  To use PEBIL, users need to include the bin
-directory of distribution to their path.  Thus, if a particular distribution
-needs to be used, the user needs to set the path variables accordingly before
-using that distribution as the name of the executable and additional PERL
-scripts would be the same. When installed properly, the PEBIL executable, pebil,
-should be in user's path. It can be checked using the which command of
-Unix from a different directory (you may need to source .cshrc/.tcshrc or
-.profile/.bashrc files for paths to be adjusted). The --help option will print
-a brief usage information.
+details in Section 2.2.1.2. 
+
+To use PEBIL, users need to include the bin directory of distribution to their
+path.  Thus, if a particular distribution needs to be used, the user needs to
+set the path variables accordingly before using that distribution as the name of
+the executable and additional PERL scripts would be the same. When installed
+properly, the PEBIL executable, pebil, should be in user's path. It can be
+checked using the `which` command of Unix from a different directory (you
+may need to source .cshrc/.tcshrc or .profile/.bashrc files for paths to be
+adjusted). The --help option will print a brief usage information.
 
 $ source ~/.cshrc
 $ which pebil
@@ -122,7 +123,7 @@ Brief Descriptions for Options:
 
 Host Systems: Any X86/Linux In the framework, the MultiMAPS data for a target
 system needs to be augmented with the cooresponding hit rates. To accomplish
-this, MultiMAPS needs to be traced with the target systems cache structure.
+this, MultiMAPS needs to be traced with the target system's cache structure.
 The default PEBIL installation, which comes configured for application tracing,
 uses address stream sampling for cache simulation. Rather than using every
 address in the address stream of an application run, it uses only a subset of
